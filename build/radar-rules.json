@@ -8707,6 +8707,29 @@
       }
     ]
   },
+  "mixcloud.com": {
+    "_name": "Mixcloud",
+    ".": [
+      {
+        "title": "User",
+        "docs": "https://docs.rsshub.app/routes/multimedia",
+        "source": [
+          "/:username/:type"
+        ],
+        "target": "/mixcloud/:username/:type?"
+      }
+    ],
+    "www": [
+      {
+        "title": "User",
+        "docs": "https://docs.rsshub.app/routes/multimedia",
+        "source": [
+          "/:username/:type"
+        ],
+        "target": "/mixcloud/:username/:type?"
+      }
+    ]
+  },
   "modelscope.cn": {
     "_name": "ModelScope 魔搭社区",
     "community": [
@@ -10256,6 +10279,43 @@
           "/"
         ],
         "target": "/panewslab/topic/:id"
+      }
+    ]
+  },
+  "papers.cool": {
+    "_name": "Cool Papers",
+    ".": [
+      {
+        "title": "arXiv Artificial Intelligence (cs.AI)",
+        "docs": "https://docs.rsshub.app/routes/journal",
+        "source": [
+          "/arxiv/cs.AI"
+        ],
+        "target": "/papers/arxiv/cs.AI"
+      },
+      {
+        "title": "arXiv Computation and Language (cs.CL)",
+        "docs": "https://docs.rsshub.app/routes/journal",
+        "source": [
+          "/arxiv/cs.CL"
+        ],
+        "target": "/papers/arxiv/cs.CL"
+      },
+      {
+        "title": "arXiv Computer Vision and Pattern Recognition (cs.CV)",
+        "docs": "https://docs.rsshub.app/routes/journal",
+        "source": [
+          "/arxiv/cs.CV"
+        ],
+        "target": "/papers/arxiv/cs.CV"
+      },
+      {
+        "title": "arXiv Machine Learning (cs.LG)",
+        "docs": "https://docs.rsshub.app/routes/journal",
+        "source": [
+          "/arxiv/cs.LG"
+        ],
+        "target": "/papers/arxiv/cs.LG"
       }
     ]
   },
